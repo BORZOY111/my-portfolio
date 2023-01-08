@@ -360,33 +360,33 @@ section {
 .contact-container .bottom-contact .small {
   padding: 15px 22px;
   color: var(--color-white);
-  border: none;
+  border: 2px solid var(--color-grey2);
   display: block;
   width: 100%;
   height: 1.95rem;
   border-radius: 20px;
   box-shadow: var(--box-shadow-1);
-  outline: 2px solid var(--color-grey2);
   background-color: transparent;
+  outline: none;
 }
 .contact-container .bottom-contact .small:focus {
-  outline: 2px solid var(--color-secondary);
+  border: 2px solid var(--color-secondary);
 }
 .contact-container .bottom-contact .large {
   padding: 15px 22px;
   color: var(--color-white);
   outline: none;
-  border: none;
+  border: 2px solid var(--color-grey2);
   display: block;
   width: 100%;
   height: 4rem;
   border-radius: 20px;
   box-shadow: var(--box-shadow-1);
-  outline: 2px solid var(--color-grey2);
   background-color: transparent;
+  outline: none;
 }
 .contact-container .bottom-contact .large:focus {
-  outline: 2px solid var(--color-secondary);
+  border: 2px solid var(--color-secondary);
 }
 .contact-container .bottom-contact .submit-container {
   margin-top: 2rem;

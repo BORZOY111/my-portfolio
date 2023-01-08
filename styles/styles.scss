@@ -387,8 +387,9 @@ section {
       border-radius: 20px;
       box-shadow: var(--box-shadow-1);
       background-color: transparent;
+      outline: none;
       &:focus {
-        outline: 2px solid var(--color-secondary);
+        border: 2px solid var(--color-secondary);
       }
     }
     .large {
@@ -402,6 +403,7 @@ section {
       border-radius: 20px;
       box-shadow: var(--box-shadow-1);
       background-color: transparent;
+      outline: none;
       &:focus {
         border: 2px solid var(--color-secondary);
       }
