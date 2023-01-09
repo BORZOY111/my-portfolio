@@ -1,6 +1,5 @@
-@media all and (max-width: 1000px) {
-  //HEADER
-
+@media screen and (max-width: 1000px) {
+  //Header
   .header {
     display: flex;
     flex-direction: column;
@@ -28,22 +27,29 @@
     }
   }
 
+  //  About
   .about-container {
     grid-template-columns: 1fr;
+
     .left-about {
-      justify-content: center;
-      margin-left: 0;
-      margin-right: auto;
+      // justify-content: center;
+      margin: 0;
+      padding: 0;
+      max-width: 1000px;
       h4 {
         font-size: 1.2rem;
+        display: grid;
+        place-items: center;
       }
     }
     .right-about {
-      padding-left: 0;
-      padding-right: 0;
-      align-items: center;
+      margin: 0;
+      padding: 0;
+      max-width: 1000px;
       h4 {
         font-size: 1.2rem;
+        display: grid;
+        place-items: center;
       }
       .skills {
         padding-left: 0;
@@ -53,6 +59,14 @@
       }
     }
   }
+  // Portfolio
+  .sec2,
+  .sec3,
+  .sec4 {
+    padding-bottom: 10rem;
+  }
+
+  // Contact
 
   .contact-container {
     .top-contact {
@@ -104,5 +118,4 @@
   .icon-con {
     max-width: 30rem;
   }
-  // Cotact
 }

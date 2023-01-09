@@ -279,8 +279,10 @@ section {
 .portfolio-con .icon-con .title {
   grid-area: title;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+  text-align: center;
   font-size: 1rem;
   padding: 2rem 0rem;
   text-transform: uppercase;
@@ -473,7 +475,7 @@ section {
   color: var(--color-secondary);
 }
 
-@media all and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .header {
     display: flex;
     flex-direction: column;
@@ -505,26 +507,35 @@ section {
     grid-template-columns: 1fr;
   }
   .about-container .left-about {
-    justify-content: center;
-    margin-left: 0;
-    margin-right: auto;
+    margin: 0;
+    padding: 0;
+    max-width: 1000px;
   }
   .about-container .left-about h4 {
     font-size: 1.2rem;
+    display: grid;
+    place-items: center;
   }
   .about-container .right-about {
-    padding-left: 0;
-    padding-right: 0;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    max-width: 1000px;
   }
   .about-container .right-about h4 {
     font-size: 1.2rem;
+    display: grid;
+    place-items: center;
   }
   .about-container .right-about .skills {
     padding-left: 0;
   }
   .about-container .right-about .skills .skill {
     width: 3.5rem;
+  }
+  .sec2,
+.sec3,
+.sec4 {
+    padding-bottom: 10rem;
   }
   .contact-container .top-contact a {
     width: 40px;
