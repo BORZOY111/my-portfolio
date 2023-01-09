@@ -232,7 +232,7 @@ section {
 .portfolio-con .icon-con {
   display: grid;
   grid-template-areas: "image image" "title title" "description description" "buttons buttons";
-  width: 100%;
+  max-width: 680px;
   height: auto;
   padding: 2rem 2rem;
   border: solid 1px transparent;
@@ -255,7 +255,7 @@ section {
   height: auto;
   width: 30%;
   background: url("./Projects/mobile1.png") center;
-  background-size: 500%;
+  background-size: 520%;
 }
 .portfolio-con .icon-con .title {
   grid-area: title;

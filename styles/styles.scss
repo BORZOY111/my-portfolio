@@ -248,7 +248,7 @@ section {
       "title title"
       "description description"
       "buttons buttons";
-    width: 100%;
+    max-width: 680px;
     height: auto;
     padding: 2rem 2rem;
     border: solid 1px transparent;
@@ -284,7 +284,7 @@ section {
         height: auto;
         width: 30%;
         background: url("./Projects/mobile1.png") center;
-        background-size: 500%;
+        background-size: 520%;
         // img {
         //   object-fit: contain;
         //   height: 100%;
