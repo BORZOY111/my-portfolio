@@ -262,6 +262,9 @@ section {
       align-items: center;
       .laptop {
         // border: solid 1px rgb(134, 31, 31);
+        display: flex;
+        justify-content: center;
+        height: auto;
         width: 70%;
         img {
           object-fit: contain;
@@ -271,13 +274,14 @@ section {
       }
       .phone {
         // border: solid 1px rgb(144, 149, 53);
+        display: flex;
+        justify-content: center;
         height: auto;
         width: 30%;
         img {
           object-fit: contain;
           height: auto;
           width: 71%;
-          float: right;
         }
       }
     }
@@ -298,6 +302,7 @@ section {
       grid-area: buttons;
       display: flex;
       justify-content: space-around;
+      align-items: flex-end;
       padding-top: 1rem;
       .btn1,
       .btn2 {

@@ -245,6 +245,9 @@ section {
   align-items: center;
 }
 .portfolio-con .icon-con .images .laptop {
+  display: flex;
+  justify-content: center;
+  height: auto;
   width: 70%;
 }
 .portfolio-con .icon-con .images .laptop img {
@@ -254,6 +257,8 @@ section {
   width: 100%;
 }
 .portfolio-con .icon-con .images .phone {
+  display: flex;
+  justify-content: center;
   height: auto;
   width: 30%;
 }
@@ -262,7 +267,6 @@ section {
      object-fit: contain;
   height: auto;
   width: 71%;
-  float: right;
 }
 .portfolio-con .icon-con .title {
   grid-area: title;
@@ -279,6 +283,7 @@ section {
   grid-area: buttons;
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
   padding-top: 1rem;
 }
 .portfolio-con .icon-con .buttons .btn1,
