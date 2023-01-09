@@ -211,6 +211,7 @@ section {
 }
 .about-container .right-about .skills {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   padding-left: 1rem;
 }
@@ -527,7 +528,7 @@ section {
     place-items: center;
   }
   .about-container .right-about .skills {
-    padding-left: 0;
+    padding: 0;
   }
   .about-container .right-about .skills .skill {
     width: 3.5rem;

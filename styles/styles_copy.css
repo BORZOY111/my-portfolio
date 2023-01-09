@@ -501,7 +501,7 @@ section {
     place-items: center;
   }
   .about-container .right-about .skills {
-    padding-left: 0;
+    padding: 0;
   }
   .about-container .right-about .skills .skill {
     width: 3.5rem;

@@ -217,6 +217,7 @@ section {
     }
     .skills {
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
       padding-left: 1rem;
       .skill {
