@@ -248,50 +248,40 @@ section {
       "title title"
       "description description"
       "buttons buttons";
-    max-width: 680px;
+    width: 100%;
     height: auto;
     padding: 2rem 2rem;
-    border: solid 1px transparent;
     border-radius: 15px;
-    transition: 0.3s ease-in-out;
     box-shadow: var(--box-shadow-1);
-    // border: 2px solid rgb(54, 13, 117);
-    // border-radius: 15px;
-    // &:hover {
-    //   transform: translateY(-0.5%);
-    // }
+
     .images {
+      // outline: 1px dashed;
       grid-area: image;
       display: flex;
       justify-content: center;
-      // border: solid 5px green;
+      align-items: center;
       .laptop {
         // border: solid 1px rgb(134, 31, 31);
-        height: 15rem;
         width: 70%;
-
-        background: url("./Projects/laptop1.png") center;
-        background-size: 240%;
-
-        // img {
-        //   object-fit: contain;
-        //   height: 100%;
-        //   width: 100%;
-        // }
+        img {
+          object-fit: contain;
+          height: 100%;
+          width: 100%;
+        }
       }
       .phone {
         // border: solid 1px rgb(144, 149, 53);
         height: auto;
         width: 30%;
-        background: url("./Projects/mobile1.png") center;
-        background-size: 520%;
-        // img {
-        //   object-fit: contain;
-        //   height: 100%;
-        //   width: 100%;
-        // }
+        img {
+          object-fit: contain;
+          height: auto;
+          width: 71%;
+          float: right;
+        }
       }
     }
+
     .title {
       grid-area: title;
       display: flex;

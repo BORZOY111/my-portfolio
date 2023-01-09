@@ -232,30 +232,37 @@ section {
 .portfolio-con .icon-con {
   display: grid;
   grid-template-areas: "image image" "title title" "description description" "buttons buttons";
-  max-width: 680px;
+  width: 100%;
   height: auto;
   padding: 2rem 2rem;
-  border: solid 1px transparent;
   border-radius: 15px;
-  transition: 0.3s ease-in-out;
   box-shadow: var(--box-shadow-1);
 }
 .portfolio-con .icon-con .images {
   grid-area: image;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .portfolio-con .icon-con .images .laptop {
-  height: 15rem;
   width: 70%;
-  background: url("./Projects/laptop1.png") center;
-  background-size: 240%;
+}
+.portfolio-con .icon-con .images .laptop img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: 100%;
 }
 .portfolio-con .icon-con .images .phone {
   height: auto;
   width: 30%;
-  background: url("./Projects/mobile1.png") center;
-  background-size: 520%;
+}
+.portfolio-con .icon-con .images .phone img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: auto;
+  width: 71%;
+  float: right;
 }
 .portfolio-con .icon-con .title {
   grid-area: title;
