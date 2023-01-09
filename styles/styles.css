@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  outline: none;
+}
+* a:link,
+* a:visited,
+* a:hover,
+* a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 :root {
@@ -242,7 +250,7 @@ section {
   grid-area: image;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .portfolio-con .icon-con .images .laptop {
   display: flex;
@@ -272,12 +280,16 @@ section {
   grid-area: title;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   font-size: 1rem;
-  padding: 0.7rem 0rem;
+  padding: 2rem 0rem;
   text-transform: uppercase;
+  color: var(--color-secondary);
 }
 .portfolio-con .icon-con .description {
   grid-area: description;
+  display: flex;
+  align-items: flex-start;
 }
 .portfolio-con .icon-con .buttons {
   grid-area: buttons;

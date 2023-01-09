@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  outline: none;
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 :root {
@@ -259,7 +267,7 @@ section {
       grid-area: image;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       .laptop {
         // border: solid 1px rgb(134, 31, 31);
         display: flex;
@@ -290,13 +298,17 @@ section {
       grid-area: title;
       display: flex;
       justify-content: center;
+      align-items: flex-start;
       font-size: 1rem;
-      padding: 0.7rem 0rem;
+      padding: 2rem 0rem;
       text-transform: uppercase;
+      color: var(--color-secondary);
       // border: solid 1px rgb(149, 53, 127);
     }
     .description {
       grid-area: description;
+      display: flex;
+      align-items: flex-start;
     }
     .buttons {
       grid-area: buttons;
