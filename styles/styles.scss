@@ -297,11 +297,12 @@ section {
 
     .title {
       grid-area: title;
+      height: 5rem;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      align-items: flex-start;
-      text-align: center;
+      // align-items: flex-start;
+      // text-align: center;
       font-size: 1rem;
       padding: 2rem 0rem;
       text-transform: uppercase;
@@ -311,7 +312,8 @@ section {
     .description {
       grid-area: description;
       display: flex;
-      align-items: flex-start;
+      // align-items: flex-start;
+      // align-items: center;
     }
     .buttons {
       grid-area: buttons;

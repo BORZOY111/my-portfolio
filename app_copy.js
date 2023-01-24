@@ -22,7 +22,6 @@ function PageTransitions() {
         btn.classList.remove("active");
       });
       e.target.classList.add("active");
-      window.scrollTo(0, 0);
 
       //hide other sections
       sections.forEach((section) => {
